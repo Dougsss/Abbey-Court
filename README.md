@@ -4,4 +4,5 @@
 - React
 - Tailwind CSS
 - Redux
+> Website used as a base to start the project 
 [Abbey-Court](https://www.abbey-court.com)
