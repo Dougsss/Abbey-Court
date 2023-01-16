@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'nigth' : "url('C:\Users\dougl\OneDrive\Documentos\Projetos github\Abbey-Court\abbeycourt\src\Assets\nigth.jpg')",
-        'day' : "url('./Assets/day')"
+        'nigth' : "url('')",
+        'day' : "url('https://media.istockphoto.com/id/1361200288/vector/city-park-with-bench-sunset-cityscape-landscape.jpg?s=612x612&w=0&k=20&c=7ts8w2tC6re_3L4eSysdkzRaL__PgSh5BECgyALNWgs=')"
       }
     },
   },
