@@ -10,9 +10,9 @@ function App() {
         <Router>
           <Navbar />
           <Home />
-          <Switch>
+          {/* <Switch>
             <Route path='/' />
-          </Switch>
+          </Switch> */}
         </Router>
       </div>
   );
