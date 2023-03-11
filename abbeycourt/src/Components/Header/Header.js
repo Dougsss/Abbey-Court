@@ -15,7 +15,7 @@ export function Header(){
                             <div>Lost & Found</div>
                         </div>
                     </div>
-                    <div className=" bg-day z-0 top-10 h-screen flex justify-center items-center bg-fixed bg-center bg-cover bg-no-repeat " />
+                    <div className=" bg-g-header z-0 top-10 h-64 flex justify-center items-center bg-fixed bg-center bg-cover bg-no-repeat " />
                 </div>
             </div>
     );

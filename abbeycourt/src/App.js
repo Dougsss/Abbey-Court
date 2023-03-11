@@ -8,7 +8,7 @@ function App() {
   return (
       <div className=" w-full h-full ">
         <Router>
-          <Navbar />
+          {/* <Navbar /> */}
           <Home />
           {/* <Switch>
             <Route path='/' />
