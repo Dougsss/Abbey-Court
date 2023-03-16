@@ -7,10 +7,11 @@ export function RouteList() {
     return(
         <>
             <BrowserRouter>
+                < Home />
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/aboutUs" element={<About />} />
-                        <Route path="/findUs" element={<Findus />} />
+                        <Route path="/" element={< Home />}/>
+                        <Route path="/aboutUs" element={< About />}/>
+                        <Route path="/findUs" element={< Findus />}/>
                     </Routes>
             </BrowserRouter>
         </>
