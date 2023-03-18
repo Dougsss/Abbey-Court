@@ -16,7 +16,7 @@ export function Header(){
                             <Link to={"/lost&found"}>Lost & Found</Link>
                         </div>
                     </div>
-                    <div className=" bg-g-header z-0 top-10 h-64 flex justify-center items-center bg-fixed bg-center bg-cover bg-no-repeat " />
+                    <div className=" bg-g-header z-0 top-10 h-12 flex justify-center items-center bg-fixed bg-center bg-cover bg-no-repeat " />
                 </div>
             </div>
     );
