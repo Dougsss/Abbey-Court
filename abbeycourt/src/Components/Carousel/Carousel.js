@@ -3,7 +3,7 @@ import item1 from "../Carousel/room1.avif";
 export function Carousel(){
     return(
         <>          
-        <div id="indicators-carousel" class="relative" data-carousel="static">
+        <div className=" rounded-md" class="relative" data-carousel="static">
             {/* Carousel wrapper */}
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 {/*  Item 1  */}
