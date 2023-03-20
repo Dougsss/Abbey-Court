@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Header(){
 
     return(
-            <div className=" w-full h-full ">
+            <div className=" w-full ">
                 <div className=" w-full mr-5 ">
                     <div className=" fixed w-full">
                         <div className=" flex flex-row gap-5 text-white text-lg mx-4 mb-2 justify-items-center items-center">
