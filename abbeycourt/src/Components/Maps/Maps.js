@@ -14,8 +14,8 @@ export function Maps() {
 
     return(
         <>
-        <div className="z-0 top-10 h-96 flex flex-row justify-center items-center ">
-            <div className=" p-3 h-full w-1/2 bg-g-header z-0 bg-fixed bg-center bg-cover bg-no-repeat">
+        <div className="z-0 top-10 h-96 flex flex-row justify-center items-center bg-g-header bg-fixed bg-center bg-cover bg-no-repeat ">
+            <div className=" p-3 h-full w-1/2">
                 <div className="w-full h-full">
                     {isLoaded ? (
                         <GoogleMap
@@ -30,16 +30,17 @@ export function Maps() {
                     )}
                 </div>
             </div>
-            <div className="p-3 h-full w-1/2 bg-g-header z-0 bg-fixed bg-center bg-cover bg-no-repeat">
-                <div className="w-full h-full opacity-30 bg-slate-100">
-                    <div className="p-5">
-                        <p className=" text-3xl">Location</p>
+            <div className="p-3 h-full w-1/2">
+                <div className="w-full h-full opacity-30 bg-slate-100 absolute">
+                    
+                </div>
+                <div className="p-5 text-black relative">
+                    <p className="text-3xl">Location</p>
                         <ul className=" text-lg mt-6">
                             <li>29 Bachelors Walk, North City, Dublin, D01 AX90</li>
                             <li>Phone: (01) 878 0700</li>
                             <li>email: info@abbey-court.com</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>

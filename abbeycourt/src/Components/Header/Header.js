@@ -15,7 +15,7 @@ export function Header(){
                                 />
                             </Link>
                             <div className=" flex-grow "/>
-                            <Link to={"/findUs"}>Find Us</Link>
+                            <Link to={"/contact"}>Contact</Link>
                             <Link to={"/aboutUs"}>About</Link>
                             <Link to={"/booking"}>Book Now</Link>
                             <Link to={"/lost&found"}>Lost & Found</Link>
