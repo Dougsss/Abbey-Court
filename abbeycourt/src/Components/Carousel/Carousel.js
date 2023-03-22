@@ -2,29 +2,30 @@ import item1 from "../Carousel/room1.avif";
 
 export function Carousel(){
     return(
-        <>          
-        <div className=" relative rounded-md pt-16" data-carousel="static">
+        <>
+        <div className=" bg-g-header bg-fixed bg-center bg-cover bg-no-repeat">        
+        <div className=" relative rounded-md p-5 pt-16" data-carousel="static"> 
             {/* Carousel wrapper */}
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 {/*  Item 1  */}
-                <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <div id="carousel-item-1" className="hidden duration-700 ease-in-out" data-carousel-item="active">
                     {/* <img src="" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." /> */}
                     <img src= {item1} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
                 {/*  Item 2 */}
-                <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <div id="carousel-item-2" className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="https://img.freepik.com/fotos-gratis/interior-do-quarto-de-hotel-com-area-de-quarto-espaco-de-estar-e-cozinha_1262-12288.jpg?w=900&t=st=1678566382~exp=1678566982~hmac=77c776177a30ffc54b9e31c67e20adf1b9c5f12d8bc2c724f36b7f48d03e4db9" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
                 {/*  Item 3 */}
-                <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <div id="carousel-item-3" className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="https://img.freepik.com/fotos-gratis/vista-da-sala-de-estar_1170-2725.jpg?w=900&t=st=1678566411~exp=1678567011~hmac=8bc71de8a28ed49b6b923cd3201d87132a4eea4dfeff4e01303c05299e627715" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
             </div>
             {/* Slider indicators */}
             <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                <button id="carousel-indicator-1" type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button id="carousel-indicator-2" type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button id="carousel-indicator-3" type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
             </div>
             {/* Slider controls */}
             <button type="button" className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -40,6 +41,7 @@ export function Carousel(){
                 </span>
             </button>
         </div>
+        </div>  
         </>
     );
 }
