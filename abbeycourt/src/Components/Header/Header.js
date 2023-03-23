@@ -15,10 +15,10 @@ export function Header(){
                                 />
                             </Link>
                             <div className=" flex-grow "/>
-                            <Link to={"/contact"}>Contact</Link>
-                            <Link to={"/aboutUs"}>About</Link>
-                            <Link to={"/booking"}>Book Now</Link>
-                            <Link to={"/lost&found"}>Lost & Found</Link>
+                            <Link to={"/contact"} className="hover:text-orange-900">Contact</Link>
+                            <Link to={"/aboutUs"} className="hover:text-orange-900">About</Link>
+                            <Link to={"/booking"} className="hover:underline">Book Now</Link>
+                            <Link to={"/lost&found"} className="hover:underline">Lost & Found</Link>
                         </div>
                     </div>
                     <div className=" bg-g-header z-0 top-10 h-14 flex justify-center items-center bg-fixed bg-center bg-cover bg-no-repeat " />

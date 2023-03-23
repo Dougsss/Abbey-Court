@@ -11,17 +11,17 @@ export function Footer(){
                                 />
                             </Link>
                         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-                            <li>            
-                                <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
+                            <li> 
+                                <Link to={"/aboutUs"} className="mr-4 hover:underline md:mr-6">About</Link>           
                             </li>
                             <li>            
-                                <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                                <Link to={"/lost&found"} className="mr-4 hover:underline md:mr-6">Lost & Found</Link>
                             </li>
                             <li>            
-                                <a href="#" className="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                                <Link to={"/booking"} className="mr-4 hover:underline md:mr-6">Book Now</Link>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline">Contact</a>
+                                <Link to={"/contact"} className="hover:underline">Contact</Link>
                             </li>
                         </ul>
                     </div>
