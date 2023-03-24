@@ -31,8 +31,8 @@ export function Maps() {
                 </div>
             </div>
             <div className="p-3 h-full w-2/5">
-                <div className=" w-1/3 h-1/3 opacity-30 bg-slate-100 absolute" />
-                <div className="p-5 text-black relative">
+                <div className=" w-1/3 h-1/3 opacity-30 bg-black absolute" />
+                <div className="p-5 text-gray-500 dark:text-gray-400 relative">
                     <p className="text-3xl">Location</p>
                         <ul className=" text-lg mt-6">
                             <li>29 Bachelors Walk, North City, Dublin, D01 AX90</li>
