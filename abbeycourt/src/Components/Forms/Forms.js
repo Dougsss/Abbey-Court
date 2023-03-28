@@ -21,7 +21,7 @@ export function Forms() {
                     </div>
                     <div class="mb-6">
                         <label for="phoneNumber" className="block mb-2 text-sm font-medium text-white">Your Phone number</label>
-                        <input type="number" id="number" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="number" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
                     </div>
                     <div className="mb-6">
                         <label for="itenLost" className="block mb-2 text-sm font-medium text-white">What item have you lost?</label>
@@ -43,13 +43,13 @@ export function Forms() {
                         <label for="checkOut" className="block mb-2 text-sm font-medium text-white">What date did you CHECK OUT of Abbey Court?</label>
                         <input type="date" id="checkOut" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
                     </div>
-                    <div className="flex mb-6">
+                    <div className="flex justify-center items-center mb-6">
                         <div className="flex items-center h-5">
                         <input id="terms" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
                         </div>
-                        <label for="terms" className="ml-2 text-sm font-medium text-white">I agree with the <Link to={"/"} className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</Link></label>
+                        <label for="terms" className="ml-2 text-sm font-medium text-white">I agree with the <Link to={"/termsCondidions"} className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</Link></label>
                     </div>
-                    <div className="mb-6 justify-center items-center">
+                    <div className="mb-6 flex justify-center items-center">
                         <button type="submit" className="text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Send</button>
                     </div>
                 </form>

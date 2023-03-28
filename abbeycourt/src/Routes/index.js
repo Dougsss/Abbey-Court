@@ -6,6 +6,7 @@ import { Footer } from "../Components/Footer/Footer";
 import { Booking } from "../Pages/Booking/Booking";
 import { Lostfound } from "../Pages/Lostfound/Lostfound";
 import { Contact } from "../Pages/Contact/Contact";
+import { Terms } from "../Pages/Terms/Terms";
 
 
 export function RouteList() {
@@ -19,6 +20,7 @@ export function RouteList() {
                     <Route path="/contact" element={<Contact />}/>
                     <Route path="/booking" element={< Booking />}/>
                     <Route path="/lost&found" element={< Lostfound />}/>
+                    <Route path="/termsCondidions" element={<Terms />}/>
                 </Routes>
             <Footer />
             </BrowserRouter>
