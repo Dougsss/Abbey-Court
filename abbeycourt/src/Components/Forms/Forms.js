@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Forms() {
     return(
         <>
-            <div className="flex justify-center items-center w-1/2 p-3 m-5 flex flex-col">
+            <div className="flex justify-center items-center w-1/2 p-3 m-5 flex-col">
                 <form className="justify-center itens-center">
                     <div className="mb-6 flex flex-row gap-2">
                         <div className=" flex flex-col">
