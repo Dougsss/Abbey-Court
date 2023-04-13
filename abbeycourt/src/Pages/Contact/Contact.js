@@ -8,12 +8,12 @@ export function Contact() {
                 <h1 className=" text-5xl text-orange-500 font-bold justify-center text-center p-10">NUMBER 1 FOR GROUPS IN DUBLIN</h1>
                 <div className="flex justify-center items-center w-3/4 p-3 m-5 flex-col">
                 <form className="justify-center w-2/4 itens-center">
-                    <div className="mb-6 flex flex-row gap-2">
-                        <div className=" flex flex-col">
+                    <div className="mb-6 flex gap-2">
+                        <div className=" w-1/2 flex flex-col">
                             <label for="firstName" className="block mb-2 text-sm font-medium text-orange-600">First Name</label>
                             <input type="name" id="fisrtName" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
                         </div>
-                        <div className=" flex flex-col">
+                        <div className=" w-1/2 flex flex-col">
                             <label for="lastName" className="block mb-2 text-sm font-medium text-orange-600">Last Name</label>
                             <input type="surName" id="lastName" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
                         </div>
