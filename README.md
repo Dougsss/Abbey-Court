@@ -1,5 +1,5 @@
 # Abbey-Court
-*Performing a revitalization on a hostel landing page.*
+*Developing a hostel website with room reservation function and services provided by the place.*
 ### Technologies used in this project
 - React
 - Tailwind CSS
