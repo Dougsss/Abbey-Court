@@ -24,7 +24,7 @@ export function Cards() {
             <Card className="w-full max-w-[26rem] shadow-lg bg-clip-border rounded-xl relative flex flex-col">
                 <CardHeader className=" bg-clip-border mt-0 mx-0 overflow-hidden" floated={false} color="blue-gray">
                     <img
-                        src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        src="https://www.cadernodeviagem.com.br/wp-content/uploads/2019/11/dormitorio-compartilhado-em-albergue-ou-hostel.jpg"
                         alt="ui/ux review check"
                     />
                     <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
